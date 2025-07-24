@@ -30,6 +30,7 @@ module.exports = {
       id: (lastId + 1).toString(),
       name: body.name,
       email: body.email,
+      phone: body.phone,
     };
 
     contacts.push(newContact);
