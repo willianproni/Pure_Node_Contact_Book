@@ -24,10 +24,10 @@ The server will start on http://localhost:3000.
 - GET /contacts/:id: Get a specific contact by ID.
 
 - POST /contacts: Create a new contact.
-  - Body (JSON): { "name": "John Doe", "email": "john@example.com" }
+  - Body (JSON): { "name": "John Doe", "email": "john@example.com", "phone": "11912345678" }
 
 - PUT /contacts/:id: Update an existing contact.
-  - Body (JSON): { "name": "John Doe", "email": "john@example.com" }
+  - Body (JSON): { "name": "John Doe", "email": "john@example.com", "phone": "11912345678" }
 
 - DELETE /contacts/:id: Delete a contact by ID.
 
